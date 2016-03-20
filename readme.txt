@@ -32,9 +32,24 @@
 
 四、远程仓库
 4.1 添加远程库
+	a、关联远程库
+		git remote add origin git@server-name:path/repo-name.git;
+	b、第一次推送master
+		git push -u origin master
+	c、再次推送
+		git push origin mater
+		
 4.2 从远程库克隆
+	git clone
+	
 五、分支管理
 5.1 创建与合并分支
+	查看分支：git brach
+	创建分支：git brache <name>
+	切换分支：git checkout <name>
+	创建+切换分支： git checkout -b <name>
+	合并某分支到当前分支： git merge <name>
+	删除分支： git branch -d <name>
 5.2 解决冲突
 5.3 分支管理策略
 5.4 Bug分支
