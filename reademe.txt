@@ -10,8 +10,16 @@
 3.2 版本回退
 	git status 理解仓库当前状态
 	git diff 查看修改内容
+	->HEAD 指向的版本就是当前版本。
+	git log  查看提交历史
+	git log --pretty=oneline
 	
+	git relog  查看命令历史
+	git reset --hard HEAD    回退版本
+
 3.3 管理修改
+	git add 将工作区第一次修改的内容放入暂存区，准备提交
+	git commit 
 3.4 撤销修改
 3.5 删除文件
 四、远程仓库
