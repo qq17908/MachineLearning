@@ -22,7 +22,7 @@
 </node>
 <node CREATED="1458309717274" ID="Freemind_Link_422583267" MODIFIED="1458309897578" POSITION="right" TEXT="&#x56fe;&#x4e66;&#x7b14;&#x8bb0;">
 <icon BUILTIN="password"/>
-<node CREATED="1458309723141" ID="Freemind_Link_480006582" MODIFIED="1458309738858" TEXT="&#x300a;&#x5229;&#x7528;Python&#x8fdb;&#x884c;&#x6570;&#x636e;&#x5206;&#x6790;&#x300b;"/>
+<node CREATED="1458516763424" ID="ID_1367583748" LINK="&#x300a;&#x5229;&#x7528;Python&#x8fdb;&#x884c;&#x6570;&#x636e;&#x5206;&#x6790;&#x300b;.mm" MODIFIED="1458516763426" TEXT="&#x300a;&#x5229;&#x7528;Python&#x8fdb;&#x884c;&#x6570;&#x636e;&#x5206;&#x6790;&#x300b;"/>
 <node CREATED="1458309739424" ID="Freemind_Link_1570566797" MODIFIED="1458309751580" TEXT="&#x300a;&#x6df1;&#x5165;&#x6d45;&#x51fa;&#x6570;&#x636e;&#x5206;&#x6790;&#x300b;"/>
 <node CREATED="1458309847988" ID="Freemind_Link_1702720753" MODIFIED="1458309855633" TEXT="&#x300a;&#x6df1;&#x5165;&#x6d45;&#x51fa;&#x7edf;&#x8ba1;&#x5b66;&#x300b;"/>
 </node>
