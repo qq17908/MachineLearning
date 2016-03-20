@@ -50,7 +50,7 @@ gitHub.com是一个免费git仓库托管服务网站。
 	b、第一次推送master
 		git push -u origin master
 	c、再次推送
-		git push origin mater
+		git push origin master
 		
 ##4.2 从远程库克隆##
 	git clone git@github.com:qq17908/learnPython.git
