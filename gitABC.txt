@@ -59,6 +59,7 @@
 	
 5.3 分支管理策略
 	使用Fast forward模式进行合并分支，在这种模式下，删除分支后，将清除分支信息。
+	git merge --no-ff -m "content" <branch>
 
 5.4 Bug分支
 5.5 Feature 分支
