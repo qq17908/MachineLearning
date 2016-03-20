@@ -50,7 +50,11 @@
 	创建+切换分支： git checkout -b <name>
 	合并某分支到当前分支： git merge <name>
 	删除分支： git branch -d <name>
+	
 5.2 解决冲突
+	各个版本及分支都有修改
+	1
+	
 5.3 分支管理策略
 5.4 Bug分支
 5.5 Feature 分支
