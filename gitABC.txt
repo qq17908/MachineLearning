@@ -71,5 +71,13 @@
 		二种：git stash pop
 		
 5.5 Feature 分支
+	已经提交分支，进行强行删除：
+	git branch -d <branchName>
+	
 5.6 多人协作
+	1、查看远程库信息，git remove -v
+	2、从本地推送分支git push origin branch-name ,如果推送失败，则先用 git pull 抓取远程的新提交文件；
+	3、本地创建和远程分支：git checkout -b branch-name origin/branch-name
+	4、建立本地分支和远程分支的关联：git branch --set-upstream branch-name origin/branch-name;
+	
 六、标签管理
