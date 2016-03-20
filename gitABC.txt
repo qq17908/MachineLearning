@@ -62,7 +62,8 @@
 	git merge --no-ff -m "content" <branch>
 
 5.4 Bug分支
-	
+		git stash 将当前工作现场“储藏”起来。
+		
 5.5 Feature 分支
 5.6 多人协作
 六、标签管理
