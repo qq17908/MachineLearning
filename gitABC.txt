@@ -161,9 +161,9 @@
 　　$ git config user.name
  
       2.4 获取帮助(Getting help)
-　　如果当你在使用Git时需要帮助，有三种方法可以获得任何git命令的手册页(manpage)帮助信息:
-　　$ git help <verb>
-　　$ git <verb> --help
-　　$ man git-<verb>
-　　例如，你可以运行如下命令获取对config命令的手册页帮助:
-　　$ git help config
+	　　如果当你在使用Git时需要帮助，有三种方法可以获得任何git命令的手册页(manpage)帮助信息:
+	　　$ git help <verb>
+	　　$ git <verb> --help
+	　　$ man git-<verb>
+	　　例如，你可以运行如下命令获取对config命令的手册页帮助:
+	　　$ git help config
