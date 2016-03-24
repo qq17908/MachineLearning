@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#0000ff" CREATED="1458213990246" ID="Freemind_Link_1380993940" MODIFIED="1458310902219" TEXT="&#x6570;&#x636e;&#x5206;&#x6790;&#x3001;&#x6316;&#x6398;">
+<node COLOR="#0000ff" CREATED="1458213990246" ID="Freemind_Link_1380993940" MODIFIED="1458778777234" TEXT="&#x6570;&#x636e;&#x5206;&#x6790;&#x3001;&#x6316;&#x6398;">
 <node CREATED="1458308555252" ID="Freemind_Link_558706640" MODIFIED="1458309530105" POSITION="right" TEXT="&#x6570;&#x636e;&#x5206;&#x6790;">
 <icon BUILTIN="idea"/>
 </node>
@@ -33,6 +33,12 @@
 <node CREATED="1458516763424" ID="ID_1367583748" LINK="&#x300a;&#x5229;&#x7528;Python&#x8fdb;&#x884c;&#x6570;&#x636e;&#x5206;&#x6790;&#x300b;.mm" MODIFIED="1458516763426" TEXT="&#x300a;&#x5229;&#x7528;Python&#x8fdb;&#x884c;&#x6570;&#x636e;&#x5206;&#x6790;&#x300b;"/>
 <node CREATED="1458309739424" ID="Freemind_Link_1570566797" MODIFIED="1458309751580" TEXT="&#x300a;&#x6df1;&#x5165;&#x6d45;&#x51fa;&#x6570;&#x636e;&#x5206;&#x6790;&#x300b;"/>
 <node CREATED="1458309847988" ID="Freemind_Link_1702720753" MODIFIED="1458309855633" TEXT="&#x300a;&#x6df1;&#x5165;&#x6d45;&#x51fa;&#x7edf;&#x8ba1;&#x5b66;&#x300b;"/>
+</node>
+<node CREATED="1458778778309" ID="ID_1832831219" MODIFIED="1458778816550" POSITION="right" TEXT="&#x95ee;&#x9898;&#xff1f;">
+<icon BUILTIN="smily_bad"/>
+<node CREATED="1458778820974" ID="ID_857704772" MODIFIED="1458779057188" TEXT="&#x6570;&#x636e;&#x5206;&#x6790;&#xff0c;&#x5206;&#x6790;&#x4ec0;&#x4e48;&#xff1f;&#x80fd;&#x89e3;&#x51b3;&#x4ec0;&#x4e48;&#x95ee;&#x9898;?"/>
+<node CREATED="1458778852933" ID="ID_731225734" MODIFIED="1458779033090" TEXT="&#x6570;&#x636e;&#x5206;&#x6790;&#x5de5;&#x5177;&#x6709;&#x54ea;&#x4e9b;&#xff1f;Python&#x5206;&#x6790;&#x89e3;&#x51b3;&#x4e86;&#x4ec0;&#x4e48;&#x95ee;&#x9898;&#xff0c;&#x5982;&#x4f55;&#x89e3;&#x51b3;&#x7684;&#xff1f;"/>
+<node CREATED="1458778905132" ID="ID_1183644804" MODIFIED="1458778999426" TEXT="&#x4ec0;&#x4e48;&#x662f;&#x91cf;&#x5316;&#x4ea4;&#x6613;&#xff1f;&#x89e3;&#x51b3;&#x4e86;&#x4ec0;&#x4e48;&#x95ee;&#x9898;&#xff1f;"/>
 </node>
 </node>
 </map>
