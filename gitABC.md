@@ -1,4 +1,12 @@
 3/20/2016 10:31:23 PM 
+![](http://i.imgur.com/dXQM4aU.png)
+# **专用名词** #
+
+    1.  workspace:工作区
+    2.  Index / Stage :暂存区
+    3.  Repository：仓库区（或本地仓库）
+    4.  Remote：远程仓库
+
 # 一、集中式和分布式 #
 	集中式版本控制，即建立中央服务器，在中央服务器保管所有版本控制内容。若你需要对某个内容进行修改时，需从“中央服务器”先提取至本地，在完成修改后，重新提交至“中央服务器”。常见的有SVN，CVS，VSS。
 	
@@ -6,7 +14,6 @@
 
 # 二、安装GIT #
 	msysgit是Windows版的Git，从http://msysgit.github.io/下载，然后按默认选项安装即可
-	![](http://i.imgur.com/k8DjCfP.png)
 
 # 三、基本内容 #
 ##3.1 创建版本库##
@@ -40,7 +47,7 @@
 	git rm <file> 删除版本库文件
 	如果误删文件，可通过git checkout恢复之前版本。
 
-# 四、远程仓库 
+# 四、远程仓库管理
 Git是分布式版本控制系统，同一个Git仓库，可以分布到不同的机器上。
 gitHub.com是一个免费git仓库托管服务网站。
 
@@ -51,9 +58,18 @@ gitHub.com是一个免费git仓库托管服务网站。
 		git push -u origin master
 	c、再次推送
 		git push origin master
+		git push [remote] --force #强行推送当前分支到远程仓库，即使有冲突
+		git push [remote] --all#推送所有分支到远程仓库
 		
 ##4.2 从远程库克隆##
 	git clone git@github.com:qq17908/learnPython.git
+##4.3 其它命令##
+	git fetch [remote]  #下载远程仓库的所有变动
+	git remote -v 显示所有远程仓库
+	git remote show #显示某个远程仓库的信息
+	git full [remote][branch] 取回远程仓库的变化，并与本地分支合并
+
+
 	
 # 五、分支管理 #
 ##5.1 创建与合并分支##
