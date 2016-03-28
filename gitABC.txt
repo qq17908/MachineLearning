@@ -67,12 +67,12 @@
 	git merge --no-ff -m "content" <branch>
 
 5.4 Bug分支
-		git stash 将当前工作现场“储藏”起来。
-		git stash list 查看封存的工作现场
+	git stash 将当前工作现场“储藏”起来。
+	git stash list 查看封存的工作现场
 		
-		恢复工作现场
+	恢复工作现场
 		一种：git stash apply  #需要删除stash内容
-				git stash drop
+			git stash drop
 		二种：git stash pop
 		
 5.5 Feature 分支
@@ -100,7 +100,7 @@
 	
 	
 八、Q&A
-		Q1：如果输入$ git remote add origin git@github.com:djqiang（github帐号名）/gitdemo（项目名）.git 
+	Q1：如果输入$ git remote add origin git@github.com:djqiang（github帐号名）/gitdemo（项目名）.git 
     提示出错信息：fatal: remote origin already exists.
     解决办法如下：
     1、先输入$ git remote rm origin
