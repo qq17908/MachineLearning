@@ -1,7 +1,6 @@
 3/20/2016 10:31:23 PM 
 ![](http://i.imgur.com/dXQM4aU.png)
 # **专用名词** #
-
     1.  workspace:工作区
     2.  Index / Stage :暂存区
     3.  Repository：仓库区（或本地仓库）
@@ -34,7 +33,7 @@
 	git relog  查看命令历史
 	git reset --hard HEAD    回退版本
 
-##3.3 管理修改##
+##3.3 提交修改##
 	git add 将工作区第一次修改的内容放入暂存区，准备提交
 	git commit  只负责将暂存区内容提交至
 	
@@ -62,7 +61,8 @@ gitHub.com是一个免费git仓库托管服务网站。
 		git push [remote] --all#推送所有分支到远程仓库
 		
 ##4.2 从远程库克隆##
-	git clone git@github.com:qq17908/learnPython.git
+	git clone git@github.com:xxxxx/learnPython.git
+
 ##4.3 其它命令##
 	git fetch [remote]  #下载远程仓库的所有变动
 	git remote -v 显示所有远程仓库
