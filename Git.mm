@@ -25,8 +25,7 @@
       &#21021;&#22987;&#21270;Git&#20179;&#24211;&#65306;git init
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1458310426156" ID="ID_683135313" MODIFIED="1459294112186" TEXT="&#x63d0;&#x4ea4;&#x4fee;&#x6539;">
@@ -43,8 +42,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;git commit -m &quot;comment!&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1459294631417" ID="ID_13309107" MODIFIED="1459294769969" TEXT="&#x4fe1;&#x606f;&#x67e5;&#x8be2;">
@@ -63,8 +61,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;git log --hard HEAD = oneline
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1458310419568" ID="ID_1022004068" MODIFIED="1458310424996" TEXT="&#x7248;&#x672c;&#x56de;&#x9000;">
@@ -79,7 +76,11 @@
 </node>
 <node CREATED="1458310440762" ID="ID_553560513" MODIFIED="1458310619065" TEXT="&#x8fdc;&#x7a0b;&#x4ed3;&#x5e93;">
 <icon BUILTIN="full-4"/>
-<node CREATED="1458310447324" MODIFIED="1458310452245" TEXT="&#x6dfb;&#x52a0;&#x8fdc;&#x7a0b;&#x5e93;"/>
+<node CREATED="1458310447324" ID="ID_362291392" MODIFIED="1458310452245" TEXT="&#x6dfb;&#x52a0;&#x8fdc;&#x7a0b;&#x5e93;">
+<node CREATED="1459325867376" ID="ID_1693304278" MODIFIED="1459325869378" TEXT="git remote add origin git@server-name:path/repo-name.git"/>
+<node CREATED="1459325878215" ID="ID_1592005245" MODIFIED="1459325879877" TEXT="git push -u origin master"/>
+<node CREATED="1459325887118" ID="ID_1682757993" MODIFIED="1459325911618" TEXT="git push origin master &#xa;git push [remote] --force #&#x5f3a;&#x884c;&#x63a8;&#x9001;&#x5f53;&#x524d;&#x5206;&#x652f;&#x5230;&#x8fdc;&#x7a0b;&#x4ed3;&#x5e93;&#xff0c;&#x5373;&#x4f7f;&#x6709;&#x51b2;&#x7a81; &#xa;git push [remote] --all#&#x63a8;&#x9001;&#x6240;&#x6709;&#x5206;&#x652f;&#x5230;&#x8fdc;&#x7a0b;&#x4ed3;&#x5e93;"/>
+</node>
 <node CREATED="1458310452652" MODIFIED="1458310461723" TEXT="&#x4ece;&#x8fdc;&#x7a0b;&#x5e93;&#x514b;&#x9686;"/>
 </node>
 <node CREATED="1458310463531" ID="ID_579560636" MODIFIED="1458310620401" TEXT="&#x5206;&#x652f;&#x7ba1;&#x7406;">
