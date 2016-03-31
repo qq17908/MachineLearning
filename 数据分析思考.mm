@@ -71,7 +71,12 @@
 </node>
 <node CREATED="1458309577847" ID="Freemind_Link_1764856793" MODIFIED="1458309656225" POSITION="right" TEXT="&#x5de5;&#x5177;&#x7bc7;">
 <icon BUILTIN="messagebox_warning"/>
-<node CREATED="1458308492699" ID="_" MODIFIED="1458308499358" TEXT="Python"/>
+<node CREATED="1458308492699" ID="_" MODIFIED="1458308499358" TEXT="Python">
+<node CREATED="1459433393844" ID="ID_137089651" MODIFIED="1459433411993" TEXT="Python&#x5feb;&#x901f;&#x6559;&#x7a0b; http://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html"/>
+<node CREATED="1459433424248" ID="ID_1233948886" MODIFIED="1459433435054" TEXT="Python&#x83dc;&#x9e1f;&#x6559;&#x7a0b;&#x5168;&#x76ee;&#x5f55; http://blog.csdn.net/a359680405/article/details/42486689"/>
+<node CREATED="1459433460500" ID="ID_466363273" MODIFIED="1459433473678" TEXT="&#x3010;&#x539f;&#x3011;&#x5341;&#x5206;&#x949f;&#x641e;&#x5b9a;pandas  http://www.cnblogs.com/chaosimple/p/4153083.html"/>
+<node CREATED="1459433479141" ID="ID_1487927168" MODIFIED="1459433480136" TEXT="http://pandas.pydata.org/pandas-docs/stable/merging.html"/>
+</node>
 <node CREATED="1458309593430" ID="Freemind_Link_1888385775" MODIFIED="1458309596042" TEXT="Excel"/>
 <node CREATED="1458311420695" ID="ID_941039803" LINK="Git.mm" MODIFIED="1458311420698" TEXT="Git"/>
 <node CREATED="1458309626099" ID="Freemind_Link_706027543" MODIFIED="1458309630359" TEXT="Matlab"/>
