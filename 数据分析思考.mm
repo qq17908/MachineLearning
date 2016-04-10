@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#0000ff" CREATED="1458213990246" ID="Freemind_Link_1380993940" MODIFIED="1459431538767" TEXT="&#x6570;&#x636e;&#x5206;&#x6790;&#x3001;&#x6316;&#x6398;">
+<node COLOR="#0000ff" CREATED="1458213990246" ID="Freemind_Link_1380993940" MODIFIED="1460206482961" TEXT="&#x6570;&#x636e;&#x5206;&#x6790;&#x3001;&#x6316;&#x6398;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -61,8 +61,7 @@
       3.&#38477;&#32500;&#26041;&#27861;&#8212;&#8212;&#20027;&#25104;&#20998;&#20998;&#26512;&#19982;&#22240;&#23376;&#20998;&#26512;&#31639;&#27861;&#20171;&#32461;&#65307;&#23454;&#20363;&#65306;&#22320;&#21306;&#32463;&#27982;&#25351;&#26631;&#35780;&#20998;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1458308555252" ID="Freemind_Link_558706640" MODIFIED="1458309530105" POSITION="right" TEXT="&#x6570;&#x636e;&#x5206;&#x6790;">
 <icon BUILTIN="idea"/>
 </node>
@@ -150,8 +149,7 @@
       &#31574;&#30053;&#25910;&#30410;&#19979;&#34892;&#27874;&#21160;&#29575;&#12290;&#21644;&#26222;&#36890;&#25910;&#30410;&#27874;&#21160;&#29575;&#30456;&#27604;&#65292;&#19979;&#34892;&#26631;&#20934;&#24046;&#21306;&#20998;&#20102;&#22909;&#30340;&#21644;&#22351;&#30340;&#27874;&#21160;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1458629098107" ID="ID_297881314" MODIFIED="1458629108695" TEXT="&#x7ade;&#x54c1;&#x5206;&#x6790;"/>
 <node CREATED="1458629344015" ID="ID_1632117379" MODIFIED="1458629388373" TEXT="&#x6280;&#x672f;&#x67b6;&#x6784;&#xff1f;"/>
 <node CREATED="1458630036175" ID="ID_62777335" MODIFIED="1458630042262" TEXT="&#x89e3;&#x51b3;&#x4ec0;&#x4e48;&#x95ee;&#x9898;&#xff1f;"/>
@@ -197,14 +195,13 @@
       &#31454;&#36187;&amp;&#20250;&#35758;&#25968;&#25454; Kaggle&#65306;https://www.kaggle.com/ DataCastle: http://www.pkbigdata.com/ KDD: http://www.kdd.org/ Statistical computing&amp;Statistical Graphics: http://stat-computing.org/dataexpo/ &#20854;&#20182; &#22522;&#22240;&#25968;&#25454;&#65306;http://aws.amazon.com/cn/1000genomes/ Cancer Program Dataset: http://www.broadinstitute.org/cgi-bin/cancer/datasets.cgi &#30005;&#24433;&#35780;&#20998;&#25968;&#25454;&#38598;&#65306;http://grouplens.org/datasets/movielens/ NCBI &#65306;http://www.ncbi.nlm.nih.gov/ Data Source on Web:&#160;&#160;&#160;&#160; http://mran.revolutionanalytics.com/documents/data/#machinelearning Mahout&#25968;&#25454;&#38598;&#65306;https://mahout.apache.org/users/basics/collections.html&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1458309717274" ID="Freemind_Link_422583267" MODIFIED="1458309897578" POSITION="right" TEXT="&#x56fe;&#x4e66;&#x7b14;&#x8bb0;">
+<node CREATED="1458309717274" ID="Freemind_Link_422583267" MODIFIED="1460280352427" POSITION="right" TEXT="&#x56fe;&#x4e66;&#x7b14;&#x8bb0;">
 <icon BUILTIN="password"/>
 <node CREATED="1458516763424" ID="ID_1367583748" LINK="&#x300a;&#x5229;&#x7528;Python&#x8fdb;&#x884c;&#x6570;&#x636e;&#x5206;&#x6790;&#x300b;.mm" MODIFIED="1458516763426" TEXT="&#x300a;&#x5229;&#x7528;Python&#x8fdb;&#x884c;&#x6570;&#x636e;&#x5206;&#x6790;&#x300b;"/>
-<node CREATED="1458309739424" ID="Freemind_Link_1570566797" MODIFIED="1458309751580" TEXT="&#x300a;&#x6df1;&#x5165;&#x6d45;&#x51fa;&#x6570;&#x636e;&#x5206;&#x6790;&#x300b;"/>
+<node CREATED="1460280400717" ID="ID_52623803" LINK="&#x300a;&#x6df1;&#x5165;&#x6d45;&#x51fa;&#x6570;&#x636e;&#x5206;&#x6790;&#x300b;.mm" MODIFIED="1460280400717" TEXT="&#x300a;&#x6df1;&#x5165;&#x6d45;&#x51fa;&#x6570;&#x636e;&#x5206;&#x6790;&#x300b;"/>
 <node CREATED="1458309847988" ID="Freemind_Link_1702720753" MODIFIED="1458309855633" TEXT="&#x300a;&#x6df1;&#x5165;&#x6d45;&#x51fa;&#x7edf;&#x8ba1;&#x5b66;&#x300b;"/>
 </node>
 <node CREATED="1458778778309" ID="ID_1832831219" MODIFIED="1458778816550" POSITION="right" TEXT="&#x95ee;&#x9898;&#xff1f;">

@@ -22,8 +22,7 @@
       git merge --no-ff develop
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -40,7 +39,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1459258997248" FOLDED="true" ID="ID_936350455" MODIFIED="1459432542344" POSITION="right" TEXT="Git&#x57fa;&#x7840;&#x529f;&#x80fd;">
+<node CREATED="1459258997248" ID="ID_936350455" MODIFIED="1460272437257" POSITION="right" TEXT="Git&#x57fa;&#x7840;&#x529f;&#x80fd;">
 <icon BUILTIN="flag"/>
 <node CREATED="1458310370679" ID="ID_456454152" MODIFIED="1458310613119" TEXT="&#x96c6;&#x4e2d;&#x5f0f;&#x4e0e;&#x5206;&#x5e03;&#x5f0f;">
 <icon BUILTIN="full-1"/>
