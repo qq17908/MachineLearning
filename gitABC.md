@@ -67,7 +67,7 @@ gitHub.com是一个免费git仓库托管服务网站。
 	git fetch [remote]  #下载远程仓库的所有变动
 	git remote -v 显示所有远程仓库
 	git remote show #显示某个远程仓库的信息
-	git full [remote][branch] 取回远程仓库的变化，并与本地分支合并
+	git pull [remote][branch] 取回远程仓库的变化，并与本地分支合并
 
 
 	

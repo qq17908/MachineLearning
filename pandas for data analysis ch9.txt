@@ -1,0 +1,50 @@
+﻿
+cmte_id               object
+
+cand_id               object
+cand_nm               object
+
+contbr_nm             object 
+contbr_city           object 
+contbr_st             object 
+contbr_zip            object 
+contbr_employer       object 
+contbr_occupation     object 
+contb_receipt_amt    float64
+contb_receipt_dt      object
+
+receipt_desc          object
+memo_cd               object
+memo_text             object
+form_tp               object
+file_num               int64
+
+------------------------------------------
+1、了解赞助额度最高的职业，所赞助的候选人
+2、了解总出资额最高的职业和企业
+3、根据州统计赞助信息
+4、出资额分组
+
+数据清洗：
+	1、获取“党派”信息列表
+	2、获取“职业”信息列表
+	3、获取“州”信息列表
+	
+	4、获取“候选人”信息列表
+		'Bachmann, Michelle':'Republican',
+		'Romney, Mitt':'Republican',
+		'Obama, Barack':'Democrat',
+		"Roemer, Charles E. 'Buddy' III" :'Republican',
+		'Pawlenty, Timothy':'Republican',
+		'Johnson, Gary Earl':'Republican', 
+		'Paul, Ron':'Republican', 
+		'Santorum, Rick':'Republican',
+		'Cain, Herman':'Republican',
+		'Gingrich, Newt':'Republican',
+		'McCotter, Thaddeus G':'Republican',
+		'Huntsman, Jon':'Republican',
+		'Perry, Rick':'Republican',
+	   
+	5、获取赞助人“雇主”信息列表
+	
+	6、“候选人”所属“党派”信息
