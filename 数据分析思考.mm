@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#0000ff" CREATED="1458213990246" ID="Freemind_Link_1380993940" MODIFIED="1460206482961" TEXT="&#x6570;&#x636e;&#x5206;&#x6790;&#x3001;&#x6316;&#x6398;">
+<node COLOR="#0000ff" CREATED="1458213990246" ID="Freemind_Link_1380993940" MODIFIED="1460420084360" TEXT="&#x6570;&#x636e;&#x5206;&#x6790;&#x3001;&#x6316;&#x6398;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -61,7 +61,8 @@
       3.&#38477;&#32500;&#26041;&#27861;&#8212;&#8212;&#20027;&#25104;&#20998;&#20998;&#26512;&#19982;&#22240;&#23376;&#20998;&#26512;&#31639;&#27861;&#20171;&#32461;&#65307;&#23454;&#20363;&#65306;&#22320;&#21306;&#32463;&#27982;&#25351;&#26631;&#35780;&#20998;
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1458308555252" ID="Freemind_Link_558706640" MODIFIED="1458309530105" POSITION="right" TEXT="&#x6570;&#x636e;&#x5206;&#x6790;">
 <icon BUILTIN="idea"/>
 </node>
