@@ -493,7 +493,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1460897788705" FOLDED="true" ID="ID_1189764801" MODIFIED="1460898161979" POSITION="left" TEXT="Python&#x57fa;&#x7840;">
+<node CREATED="1460897788705" FOLDED="true" ID="ID_1189764801" MODIFIED="1460933650863" POSITION="left" TEXT="Python&#x57fa;&#x7840;">
 <icon BUILTIN="full-0"/>
 <node CREATED="1460897812593" ID="ID_1508567947" MODIFIED="1460897943573" TEXT="&#x57fa;&#x7840;&#x77e5;&#x8bc6;">
 <richcontent TYPE="NOTE"><html>
@@ -538,8 +538,7 @@
       &#21487;&#21464;&#21644;&#19981;&#21487;&#21464;&#30340;&#23545;&#35937;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1460897950053" ID="ID_159163430" MODIFIED="1460897966251" TEXT="&#x6807;&#x91cf;&#x7c7b;&#x578b;">
 <richcontent TYPE="NOTE"><html>
@@ -563,8 +562,7 @@
       &#26085;&#26399;&#21644;&#26102;&#38388;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1460897972951" ID="ID_1022155727" MODIFIED="1460897990476" TEXT="&#x63a7;&#x5236;&#x6d41;">
 <richcontent TYPE="NOTE"><html>
@@ -594,8 +592,7 @@
       &#19977;&#20803;&#34920;&#36798;&#24335;&#160;&#160;ternary expression
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1460897992911" ID="ID_1457404794" MODIFIED="1460898001639" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;&#x548c;&#x5e8f;&#x5217;">
 <richcontent TYPE="NOTE"><html>
@@ -607,8 +604,7 @@
       <font color="rgb(0, 0, 0)" face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" size="14px"><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-weight: normal; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">&#20803;&#32452; tuple</span><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-weight: normal; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">&#20803;&#32452;&#25286;&#21253;</span><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-weight: normal; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">&#20803;&#32452;&#26041;&#27861;</span><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-weight: normal; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">&#21015;&#34920;</span><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-weight: normal; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">&#28155;&#21152;&#21644;&#31227;&#38500;&#20803;&#32032;</span><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-weight: normal; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">&#21512;&#24182;&#21015;&#34920;</span><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-weight: normal; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">&#25490;&#24207;</span><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-weight: normal; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">&#20108;&#20998;&#25628;&#32034;&#21450;&#32500;&#25252;&#26377;&#24207;&#21015;&#34920;</span><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-weight: normal; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">&#20999;&#29255;</span><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-weight: normal; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">&#20869;&#32622;&#30340;&#24207;&#21015;&#20989;&#25968;</span><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-weight: normal; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">sorted</span><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-weight: normal; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">zip</span><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-weight: normal; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">reversed</span></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1460898088789" ID="ID_1724005031" MODIFIED="1460898107053" TEXT="&#x5b57;&#x5178;">
 <richcontent TYPE="NOTE"><html>
@@ -620,8 +616,7 @@
       <font color="rgb(0, 0, 0)" face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" size="14px">&#20174;&#24207;&#21015;&#31867;&#22411;&#21019;&#24314;&#23383;&#20856;</font><font color="rgb(0, 0, 0)" face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;"><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /></font><font face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" color="rgb(0, 0, 0)" size="14px">&#40664;&#35748;&#20540;</font><font color="rgb(0, 0, 0)" face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;"><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /></font><font face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" color="rgb(0, 0, 0)" size="14px">&#23383;&#20856;&#38190;&#30340;&#26377;&#25928;&#31867;&#22411;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1460898112025" ID="ID_1601250383" MODIFIED="1460898116957" TEXT="&#x96c6;&#x5408;">
 <richcontent TYPE="NOTE"><html>
@@ -633,8 +628,7 @@
       <font color="rgb(0, 0, 0)" face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" size="14px"><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-weight: normal; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">&#21015;&#34920;&#12289;&#38598;&#21512;&#20197;&#21450;&#23383;&#20856;&#30340;&#25512;&#23548;&#24335;</span><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-weight: normal; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">&#23884;&#22871;&#21015;&#34920;&#25512;&#23548;&#24335;</span></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1460898122239" ID="ID_49679107" MODIFIED="1460898137577" TEXT="&#x51fd;&#x6570;">
 <richcontent TYPE="NOTE"><html>
@@ -646,8 +640,7 @@
       <font color="rgb(0, 0, 0)" face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" size="14px">&#21629;&#21517;&#31354;&#38388;&#12289;&#20316;&#29992;&#22495;&#12289;&#20197;&#21450;&#23616;&#37096;&#20989;&#25968;</font><font color="rgb(0, 0, 0)" face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;"><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /></font><font face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" color="rgb(0, 0, 0)" size="14px">&#36820;&#22238;&#22810;&#20010;&#20540;</font><font color="rgb(0, 0, 0)" face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;"><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /></font><font face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" color="rgb(0, 0, 0)" size="14px">&#20989;&#25968;&#20134;&#20026;&#23545;&#35937;</font><font color="rgb(0, 0, 0)" face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;"><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /></font><font face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" color="rgb(0, 0, 0)" size="14px">&#21311;&#21517;&#20989;&#25968; lambda</font><font color="rgb(0, 0, 0)" face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;"><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /></font><font face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" color="rgb(0, 0, 0)" size="14px">&#38381;&#21253;&#65306;&#36820;&#22238;&#20989;&#25968;&#30340;&#20989;&#25968;</font><font color="rgb(0, 0, 0)" face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;"><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /></font><font face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" color="rgb(0, 0, 0)" size="14px">&#25193;&#23637;&#35843;&#29992;&#35821;&#27861;&#21644;*args&#12289;**kwargs</font><font color="rgb(0, 0, 0)" face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;"><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /></font><font face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" color="rgb(0, 0, 0)" size="14px">&#26607;&#37324;&#21270;&#65306;&#37096;&#20998;&#21442;&#25968;&#24212;&#29992; </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1460898137546" ID="ID_1423796698" MODIFIED="1460898142941" TEXT="&#x751f;&#x6210;&#x5668;">
 <richcontent TYPE="NOTE"><html>
@@ -659,8 +652,7 @@
       <font color="rgb(0, 0, 0)" face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" size="14px"><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-weight: normal; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">&#29983;&#25104;&#22120;&#34920;&#36798;&#24335;</span><br align="left" style="text-transform: none; letter-spacing: normal; line-height: 21px; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); word-spacing: 0px; font-variant: normal" /><span style="text-transform: none; letter-spacing: normal; color: rgb(0, 0, 0); line-height: 21px; float: none; font-weight: normal; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; display: inline !important; font-size: 14px; text-indent: 0px; font-style: normal; white-space: normal; text-align: left; background-color: rgb(255, 255, 255); font-variant: normal; word-spacing: 0px">itertools&#27169;&#22359;</span></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1460898147275" ID="ID_1464934313" MODIFIED="1460898148366" TEXT="&#x6587;&#x4ef6;&#x548c;&#x64cd;&#x4f5c;&#x7cfb;&#x7edf;"/>
 </node>
