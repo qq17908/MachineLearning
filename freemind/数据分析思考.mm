@@ -61,8 +61,7 @@
       3.&#38477;&#32500;&#26041;&#27861;&#8212;&#8212;&#20027;&#25104;&#20998;&#20998;&#26512;&#19982;&#22240;&#23376;&#20998;&#26512;&#31639;&#27861;&#20171;&#32461;&#65307;&#23454;&#20363;&#65306;&#22320;&#21306;&#32463;&#27982;&#25351;&#26631;&#35780;&#20998;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1458308555252" ID="Freemind_Link_558706640" MODIFIED="1458309530105" POSITION="right" TEXT="&#x6570;&#x636e;&#x5206;&#x6790;">
 <icon BUILTIN="idea"/>
 </node>
@@ -74,8 +73,18 @@
 <node CREATED="1458308492699" ID="_" MODIFIED="1458308499358" TEXT="Python">
 <node CREATED="1459433393844" ID="ID_137089651" MODIFIED="1459433411993" TEXT="Python&#x5feb;&#x901f;&#x6559;&#x7a0b; http://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html"/>
 <node CREATED="1459433424248" ID="ID_1233948886" MODIFIED="1459433435054" TEXT="Python&#x83dc;&#x9e1f;&#x6559;&#x7a0b;&#x5168;&#x76ee;&#x5f55; http://blog.csdn.net/a359680405/article/details/42486689"/>
-<node CREATED="1459433460500" ID="ID_466363273" MODIFIED="1459433473678" TEXT="&#x3010;&#x539f;&#x3011;&#x5341;&#x5206;&#x949f;&#x641e;&#x5b9a;pandas  http://www.cnblogs.com/chaosimple/p/4153083.html"/>
 <node CREATED="1459433479141" ID="ID_1487927168" MODIFIED="1459433480136" TEXT="http://pandas.pydata.org/pandas-docs/stable/merging.html"/>
+<node COLOR="#669900" CREATED="1460799057197" ID="ID_928180545" MODIFIED="1460800410427" TEXT="Pandas">
+<icon BUILTIN="idea"/>
+<node COLOR="#990000" CREATED="1460799061428" ID="ID_991218745" MODIFIED="1460800421138" TEXT="&#x89e3;&#x51b3;&#x4ec0;&#x4e48;&#x95ee;&#x9898;&#xff1f;">
+<node CREATED="1459433460500" ID="ID_466363273" MODIFIED="1459433473678" TEXT="&#x3010;&#x539f;&#x3011;&#x5341;&#x5206;&#x949f;&#x641e;&#x5b9a;pandas  http://www.cnblogs.com/chaosimple/p/4153083.html"/>
+</node>
+<node CREATED="1460901587659" ID="ID_25822203" MODIFIED="1460901596696" TEXT="">
+<hook NAME="plugins/map/MapNodePositionHolder.properties">
+<Parameters XML_STORAGE_MAP_LAT="26.27371402440643" XML_STORAGE_MAP_LON="88.41796875" XML_STORAGE_POS_LAT="37.3002752813443" XML_STORAGE_POS_LON="116.19140625" XML_STORAGE_TILE_SOURCE="org.openstreetmap.gui.jmapviewer.tilesources.OsmTileSource$Mapnik" XML_STORAGE_ZOOM="3"/>
+</hook>
+</node>
+</node>
 </node>
 <node CREATED="1458309593430" ID="Freemind_Link_1888385775" MODIFIED="1458309596042" TEXT="Excel"/>
 <node CREATED="1458311420695" ID="ID_941039803" LINK="Git.mm" MODIFIED="1458311420698" TEXT="Git"/>
