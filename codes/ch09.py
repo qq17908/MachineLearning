@@ -4,6 +4,7 @@
 #4、根据州统计赞助信息
 
 ########################################################
+#encoding:UTF-8
 
 import numpy as np
 import pandas as pd
