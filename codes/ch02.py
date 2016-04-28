@@ -102,6 +102,47 @@ normed_subset.plot(kind='barh',stacked=True)
 #3、统计女性观众喜欢的电影，并进行降序排序；
 #4、计算评分分歧；
 
+import pandas as pd
+unames = ['user_id','gender','age','occupation','zip']
+mnames = ['movie_id','title','genres']
+users = pd.read_table('D:\\Desktop\\Python\\pydata-book-master\\ch02\\movielens\\users.dat',sep='::',header=None,names=unames)
+
+rnames = ['user_id','movie_id','rating','timestamp']
+ratings = pd.read_table('D:\\Desktop\\Python\\pydata-book-master\\ch02\\movielens\\ratings.dat',sep='::',header=None,names=rnames)
+
+mnames = ['movie_id','title','genres']
+movies = pd.read_table('D:\\Desktop\\Python\\pydata-book-master\\ch02\\movielens\\movies.dat',sep='::',header=None,names = mnames)
+
+data = pd.merge(pd.merge(ratings,users),movies)
+
+#按性别计算每部电影的平均得分
+mean_ratings = data.pivot_table('rating',index='title',cols='gender',aggfunc='mean')
+
+
+#2、过滤评分数据不够250条的电影
+ratings_by_title = data.groupby('title').size()
+active_titles = ratings_by_title.index[ratings_by_title >= 250]
+
+mean_ratings = mean_ratings.ix[active_titles]
+
+top_female_ratings = mean_ratings.sort_index(by='F',ascending=False)
+
+#4、计算评分分歧；
+mean_ratings['diff'] = mean_ratings['M'] - mean_ratings['F']
+sorted_by_diff = mean_ratings.sort_index(by='diff')
+
+
+#根据电影名称分组的得分数据的标准差
+rating_std_by_title = data.groupby('title')['rating'].std()
+
+#根据active_titles进行过滤
+rating_std_by_title = rating_std_by_title.ix[active_titles]
+
+#根据值对Series进行降序排序
+rating_std_by_title.order(ascending=False)[:10]
+
+
+
 ##############################################################################################
 #三、1880-2010年间全美婴儿姓名
 #1、按性别和年度统计除总出生数
@@ -117,5 +158,3 @@ normed_subset.plot(kind='barh',stacked=True)
 #	a、男孩女孩名字中各个末字母的比例；
 #	b、各年出生的男孩中名字以d/n/y结尾的人数比例
 #	c、变成女孩子名字的男孩名字
-	
--
