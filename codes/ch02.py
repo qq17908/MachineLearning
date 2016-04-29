@@ -14,6 +14,8 @@
 ##	c、绘制堆积条形图；
 
 import json
+from bcolz.ctable import cols
+from matplotlib.pyplot import yticks
 
 path = 'D:/Desktop/Python/pydata-book-master/ch02/usagov_bitly_data2012-03-16-1331923249.txt'
 open(path).readline()
@@ -203,4 +205,79 @@ top1000 = grouped.apply(get_top1000)
 #2、分析命名趋势
 boys = top1000[top1000.sex == 'M']
 girls = top1000[top1000.sex == 'F']
+
+total_births = top1000.pivot_table('births',rows='year',cols = 'name',aggfunc=sum)
+
+subset = total_births[['John','Harry','Mary','Marilyn']]
+subset.plot(subplots=True,figsize=(12,10),grid=False,title='Number of births per year')
+
+#3、评估命名多样性的增长
+table = top1000.pivot_table('prop',rows = 'year',cols='sex',argfunc=sum)
+table.plot(title='Sum of table1000.prop by year and sex',yticks=np.linespace(0,1.2,13),xticks=range(1880,2020,10))
+
+
+df = boys[boys.year == 2010]
+
+
+prop_cumsum = df.sort_index(by='prop',ascending=False).prop.cumsum()
+prop_cumsum.searchsorted(0.5)
+
+
+#对比1900年数据
+df = boys[boys.year == 1900]
+in1900 = df.sort_index(by='prop',ascending=False).prop.cumsum()
+in1900.searchsorted(0.5)+1
+
+#对所有year/sex组合计算
+def get_quantile_count(group,q = 0.5):
+    group = group.sort_index(by='prop',ascending=False)
+    return group.prop.cumsum().searchsorted(q)+1
+
+diversify = top1000.groupby(['year','sex']).apply(get_quantile_count)
+diversify = diversify.unstack('sex')
+
+diversify.plot(title='Number of popular names in top 50%')
+
+
+#4、“最后一个字母”的变革
+
+
+#从name列去除最后一个字母
+get_last_letter = lambda x:x[-1]
+last_letters = names.name.map(get_last_letter)
+last_letters.name = 'last_letter'
+
+table = names.pivot_table('births',row=last_letters,cols=['sex','year'],aggfunc=sum)
+##选取具有代表性的3年
+subtable = table.reindex (columns=[1910,1960,2010],level='year')
+letter_prop = subtable / subtable.sum().astype(float)
+
+#男孩女孩名字中各个末字母的比例
+import matplotlib.pyplot as plt
+fig,axes = plt.subplot(2,1,figsize=(10,8))
+letter_prop['M'].plot(kind='bar',rot=0,ax=axes[0],title='Male')
+letter_prop['F'].plot(kind='bar',rot=0,ax=axes[1],title='Female',legend=False)
+
+
+letter_prop = table / table.sum().astype(float)
+dny_ts = letter_prop.ix[['d','n','y'],'M'].T
+dny_ts.head()
+dny_ts.plot()
+
+#找出名字开头“lesl”的一组数据
+all_names = top1000.name.unique()
+mask = np.array(['lesl' in x.lower() for x in all_names])
+lesley_like = all_names[mask]
+
+##按名字分组计算出生数以查看相对频率
+filtered = top1000[top1000.name.isin(lesley_like)]
+filtered.groupby('name').births.sum()
+
+##按性别和年度进行聚合，按年度进行处理
+table = filtered.pivot_table('births',rows = 'year',cols='sex',aggfunc='sum')
+table = table.div(table.sum(1),axis=0)
+table.tail()
+
+##各年度使用‘lesley’名字的男女比例
+table.plot(style={'M':'k-','F':'k--'})
 
