@@ -158,3 +158,49 @@ rating_std_by_title.order(ascending=False)[:10]
 #	a、男孩女孩名字中各个末字母的比例；
 #	b、各年出生的男孩中名字以d/n/y结尾的人数比例
 #	c、变成女孩子名字的男孩名字
+
+import pandas as pd
+
+names1880 = pd.read_csv('D:\\Desktop\\Python\\pydata-book-master\\ch02\\names\\yob1880.txt',names=['names','sex','births'])
+
+names1880.groupby('sex').births.sum()
+
+years = range(1880,2011)
+pieces = []
+
+columns = ['name','sex','births']
+
+for year in years:
+    path = 'D:\\Desktop\\Python\\pydata-book-master\\ch02\\names\\yob%d.txt' % year
+    frame = pd.read_csv(path,names=columns)
+    frame['year'] = year
+    pieces.append(frame)
+
+names = pd.concat(pieces,ignore_index = True)
+
+total_births = names.pivot_table('births',rows='year',cols='sex',aggfunc=sum)
+total_births.tail()
+
+total_births.plot(title='Total births by sex and year')
+
+def add_prop(group):
+    births = group.births.astype(float)
+    
+    group['prop'] = births/births.sum()
+    return  group
+
+names = names.groupby(['year','sex']).apply(add_prop)
+
+#检查这个分组总计值是否足够近似于1
+np.allclose(names.groupby(['year','sex']).prop.sum(),1)
+
+def get_top1000(group):
+    return group.sort_index(by='births',ascending=False)[:1000]
+
+grouped = names.groupby(['year','sex'])
+top1000 = grouped.apply(get_top1000)
+
+#2、分析命名趋势
+boys = top1000[top1000.sex == 'M']
+girls = top1000[top1000.sex == 'F']
+
