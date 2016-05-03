@@ -157,8 +157,7 @@
       6&#12289;&#8220;&#20505;&#36873;&#20154;&#8221;&#25152;&#23646;&#8220;&#20826;&#27966;&#8221;&#20449;&#24687;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1460611914401" ID="ID_839156218" MODIFIED="1460622324754" POSITION="right" TEXT="numpy">
 <icon BUILTIN="full-2"/>
 <node CREATED="1460622275832" ID="ID_1050038308" MODIFIED="1460622321538" TEXT="&#x57fa;&#x7840;:&#x6570;&#x7ec4;&#x548c;&#x77e2;&#x91cf;&#x8ba1;&#x7b97;">
@@ -374,7 +373,7 @@
 <node CREATED="1460697778575" ID="ID_1144823932" MODIFIED="1460697787866" TEXT="pandas&#x4e2d;&#x77e2;&#x91cf;&#x5316;&#x7684;&#x5b57;&#x7b26;&#x4e32;&#x51fd;&#x6570;"/>
 </node>
 </node>
-<node CREATED="1460611933319" FOLDED="true" ID="ID_1117784478" MODIFIED="1460639816249" POSITION="right" TEXT="&#x7ed8;&#x56fe;&#x548c;&#x53ef;&#x89c6;&#x5316;">
+<node CREATED="1460611933319" ID="ID_1117784478" MODIFIED="1462166522327" POSITION="right" TEXT="&#x7ed8;&#x56fe;&#x548c;&#x53ef;&#x89c6;&#x5316;">
 <icon BUILTIN="full-6"/>
 <node CREATED="1460621106789" ID="ID_1454484427" MODIFIED="1460621120576">
 <richcontent TYPE="NODE"><html>
@@ -401,7 +400,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1460611938969" FOLDED="true" ID="ID_698869683" MODIFIED="1460639817949" POSITION="right" TEXT="&#x6570;&#x636e;&#x805a;&#x5408;&#x4e0e;&#x5206;&#x5b50;&#x8fd0;&#x7b97;">
+<node CREATED="1460611938969" ID="ID_698869683" MODIFIED="1462169180513" POSITION="right" TEXT="&#x6570;&#x636e;&#x805a;&#x5408;&#x4e0e;&#x5206;&#x5b50;&#x8fd0;&#x7b97;">
 <icon BUILTIN="full-7"/>
 <node CREATED="1460621134702" ID="ID_934568385" MODIFIED="1460621161115">
 <richcontent TYPE="NODE"><html>
@@ -494,7 +493,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1460897788705" FOLDED="true" ID="ID_1189764801" MODIFIED="1460933650863" POSITION="left" TEXT="Python&#x57fa;&#x7840;">
+<node CREATED="1460897788705" ID="ID_1189764801" MODIFIED="1462106194999" POSITION="left" TEXT="Python&#x57fa;&#x7840;">
 <icon BUILTIN="full-0"/>
 <node CREATED="1460897812593" ID="ID_1508567947" MODIFIED="1460897943573" TEXT="&#x57fa;&#x7840;&#x77e5;&#x8bc6;">
 <richcontent TYPE="NOTE"><html>
