@@ -114,11 +114,12 @@ movies = pd.read_table('D:\\Desktop\\Python\\pydata-book-master\\ch02\\movielens
 data = pd.merge(pd.merge(ratings,users),movies)
 
 #按性别计算每部电影的平均得分
-mean_ratings = data.pivot_table('rating',index='title',cols='gender',aggfunc='mean')
+mean_ratings = data.pivot_table('rating',index='title',columns='gender',aggfunc='mean')
 
 #2、过滤评分数据不够250条的电影
 ratings_by_title = data.groupby('title').size()
 active_titles = ratings_by_title.index[ratings_by_title >= 250]
+
 mean_ratings = mean_ratings.ix[active_titles]
 top_female_ratings = mean_ratings.sort_index(by='F',ascending=False)
 
@@ -154,7 +155,6 @@ rating_std_by_title.order(ascending=False)[:10]
 import pandas as pd
 
 names1880 = pd.read_csv('D:\\Desktop\\Python\\pydata-book-master\\ch02\\names\\yob1880.txt',names=['names','sex','births'])
-
 names1880.groupby('sex').births.sum()
 
 years = range(1880,2011)
@@ -170,7 +170,7 @@ for year in years:
 
 names = pd.concat(pieces,ignore_index = True)
 
-total_births = names.pivot_table('births',rows='year',cols='sex',aggfunc=sum)
+total_births = names.pivot_table('births',index='year',columns='sex',aggfunc=sum)
 total_births.tail()
 
 total_births.plot(title='Total births by sex and year')
@@ -196,22 +196,19 @@ top1000 = grouped.apply(get_top1000)
 boys = top1000[top1000.sex == 'M']
 girls = top1000[top1000.sex == 'F']
 
-total_births = top1000.pivot_table('births',rows='year',cols = 'name',aggfunc=sum)
+total_births = top1000.pivot_table('births',index='year',columns = 'name',aggfunc=sum)
 
 subset = total_births[['John','Harry','Mary','Marilyn']]
 subset.plot(subplots=True,figsize=(12,10),grid=False,title='Number of births per year')
 
 #3、评估命名多样性的增长
-table = top1000.pivot_table('prop',rows = 'year',cols='sex',argfunc=sum)
+table = top1000.pivot_table('prop',index = 'year',columns='sex',argfunc=sum)
 table.plot(title='Sum of table1000.prop by year and sex',yticks=np.linespace(0,1.2,13),xticks=range(1880,2020,10))
-
 
 df = boys[boys.year == 2010]
 
-
 prop_cumsum = df.sort_index(by='prop',ascending=False).prop.cumsum()
 prop_cumsum.searchsorted(0.5)
-
 
 #对比1900年数据
 df = boys[boys.year == 1900]
@@ -236,7 +233,7 @@ get_last_letter = lambda x:x[-1]
 last_letters = names.name.map(get_last_letter)
 last_letters.name = 'last_letter'
 
-table = names.pivot_table('births',row=last_letters,cols=['sex','year'],aggfunc=sum)
+table = names.pivot_table('births',index=last_letters,columns=['sex','year'],aggfunc=sum)
 
 ##选取具有代表性的3年
 subtable = table.reindex (columns=[1910,1960,2010],level='year')
@@ -247,7 +244,6 @@ import matplotlib.pyplot as plt
 fig,axes = plt.subplot(2,1,figsize=(10,8))
 letter_prop['M'].plot(kind='bar',rot=0,ax=axes[0],title='Male')
 letter_prop['F'].plot(kind='bar',rot=0,ax=axes[1],title='Female',legend=False)
-
 
 letter_prop = table / table.sum().astype(float)
 dny_ts = letter_prop.ix[['d','n','y'],'M'].T
@@ -264,7 +260,7 @@ filtered = top1000[top1000.name.isin(lesley_like)]
 filtered.groupby('name').births.sum()
 
 ##按性别和年度进行聚合，按年度进行处理
-table = filtered.pivot_table('births',rows = 'year',cols='sex',aggfunc='sum')
+table = filtered.pivot_table('births',index = 'year',columns='sex',aggfunc='sum')
 table = table.div(table.sum(1),axis=0)
 table.tail()
 
